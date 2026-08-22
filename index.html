@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fuzzy Search Dropdown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <p class="eyebrow">Search Component</p>
+      <h1>Fuzzy Search Dropdown</h1>
+      <p class="subtitle">Exact prefix matches are prioritized, followed by fuzzy matches.</p>
+
+      <label for="searchInput">Search products</label>
+      <div class="search-wrap">
+        <input id="searchInput" type="text" autocomplete="off"
+          placeholder="Try: app, apl, ban, key..." aria-expanded="false"
+          aria-controls="resultsList" aria-autocomplete="list">
+        <button id="clearBtn" class="clear" type="button" aria-label="Clear search">×</button>
+      </div>
+
+      <div id="dropdown" class="dropdown hidden">
+        <ul id="resultsList" role="listbox"></ul>
+        <div id="emptyState" class="empty hidden">No matching results</div>
+      </div>
+
+      <div class="selected" id="selected">No item selected</div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
