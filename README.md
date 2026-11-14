@@ -1,6 +1,6 @@
 # Fuzzy Search Dropdown
 
-A complete vanilla HTML/CSS/JavaScript implementation of a fuzzy-search dropdown.
+A complete HTML/CSS/JavaScript implementation of a fuzzy-search dropdown.
 
 ## Features
 
@@ -18,19 +18,14 @@ A complete vanilla HTML/CSS/JavaScript implementation of a fuzzy-search dropdown
 - No frameworks, dependencies, build tools, or API keys required.
 
 ## Run
+### Option 1 — Direct link:
+[Fuzzy Search](https://dheekshithchalla.github.io/Fuzzy-Search-Dropdown-project/)
 
-### Option 1 — Directly
+### Option 2 — Directly
 Open `index.html` in your browser.
 
-### Option 2 — VS Code
+### Option 3 — VS Code
 Open this folder in VS Code and use Live Server if you have it installed.
-
-### Option 3 — GitHub Pages
-1. Create a GitHub repository.
-2. Upload `index.html`, `style.css`, and `script.js`.
-3. Go to Settings → Pages.
-4. Select the main branch and root folder.
-5. Save and open the generated GitHub Pages URL.
 
 ## Test searches
 
